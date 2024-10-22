@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 3</title>
-    <script type="module" crossorigin src="/goit-js-hw-09/assets/styles-DD3qoKza.js"></script>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-DvPDDfy5.css">
+    <title>Form</title>
+    <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/styles-CYG5p_vb.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-CAVe3mUP.css">
   </head>
   <body>
     <header class="header">
@@ -40,6 +41,23 @@
         </h1>
         <a class="back-link" href="./index.html">Go back</a>
 
+      </div>
+
+      <div class="feedback_div">
+        <form class="feedback_form">
+          <label class="feedback_label" for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+
+          <label class="feedback_label" for="message">Message</label>
+          <textarea
+            class="feedback_message"
+            name="message"
+            id="message"
+            required
+          ></textarea>
+
+          <button class="feedback_button" type="submit">Submit</button>
+        </form>
       </div>
     </main>
 

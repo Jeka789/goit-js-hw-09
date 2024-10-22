@@ -1,0 +1,72 @@
+.feedback_div {
+    
+}
+
+.feedback_form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 296px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.feedback_label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.feedback_input {
+    width: 360px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 8px;
+    outline: none;
+}
+
+.feedback_input:focus {
+    border-color: #000;
+}
+
+.feedback_message {
+    width: 360px;
+    height: 80px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 8px;
+    outline: none;
+    resize: vertical;
+}
+
+.feedback_message:focus {
+    border-color: #000;
+}
+
+
+.feedback_button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background-color: #4e75ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.feedback_button:hover {
+    background-color: #6c8cff;
+}
+

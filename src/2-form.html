@@ -23,22 +23,26 @@
         <load src="./partials/back-link.html" />
       </div>
 
-      <div class="feedback_div">
-        <form class="feedback_form">
-          <label class="feedback_label" for="email">Email</label>
-          <input type="email" name="email" id="email" required />
+      <form class="feedback_form">
+        <label class="feedback_label" for="email">Email</label>
+        <input
+          class="feedback_input"
+          type="email"
+          name="email"
+          id="email"
+          required
+        />
 
-          <label class="feedback_label" for="message">Message</label>
-          <textarea
-            class="feedback_message"
-            name="message"
-            id="message"
-            required
-          ></textarea>
+        <label class="feedback_label" for="message">Message</label>
+        <textarea
+          class="feedback_message"
+          name="message"
+          id="message"
+          required
+        ></textarea>
 
-          <button class="feedback_button" type="submit">Submit</button>
-        </form>
-      </div>
+        <button class="feedback_button" type="submit">Submit</button>
+      </form>
     </main>
 
     <load src="./partials/footer.html" />

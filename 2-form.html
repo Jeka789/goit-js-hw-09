@@ -6,37 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Form</title>
-    
+
     <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-BOjQlwij.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-COEJAN5D.css">
   </head>
   <body>
     <main>
+      <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
 
         <h1 class="main-title">Form</h1>
       </div>
 
-      <form class="feedback_form">
-        <label class="feedback_label" for="email">Email</label>
-        <input
-          class="feedback_input"
-          type="email"
-          name="email"
-          id="email"
-          required
-        />
+      <form class="feedback-form" autocomplete="off">
+        <label class="feedback-label">
+          Email
+          <input class="feedback-input" type="email" name="email" autofocus />
+        </label>
 
-        <label class="feedback_label" for="message">Message</label>
-        <textarea
-          class="feedback_message"
-          name="message"
-          id="message"
-          required
-        ></textarea>
+        <label class="feedback-label">
+          Message
+          <textarea class="feedback-message" name="message" rows="8"></textarea>
+        </label>
 
-        <button class="feedback_button" type="submit">Submit</button>
+        <button class="feedback-button" type="submit">Submit</button>
       </form>
     </main>
 
